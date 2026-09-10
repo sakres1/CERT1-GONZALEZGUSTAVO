@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro Cultural Puerto Abierto</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- navegacion  -->
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="index.html">Centro Cultural</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="cartelera.html">Cartelera</a></li>
+            <li class="nav-item"><a class="nav-link" href="inscripcion.html">Inscripción</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Bienvenida-->
+    <section class="text-center py-5" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDzw3XYJqTroumc7-ktkG9s1bDgeO2HGwspqsX13v4L-snXddohfL4Rtg&s=10') center/cover; position: relative;">
+      <div style="background-color: rgba(255, 255, 255, 0.85);" class="container p-5 rounded-circle"> <!--d-grid-->
+        <h1 class=" fw-bold mb-3">Centro Cultural Puerto Abierto</h1>
+        <p class="lead fs-4">Promoviendo el arte, la cultura y la educación para toda nuestra comunidad.</p>
+        <p>Un espacio de encuentro donde la creatividad no tiene límites. Explora nuestros talleres, asiste a exposiciones y sé parte de la vida cultural de la ciudad.</p>
+        <a href="cartelera.html" class="btn btn-cultural btn-lg mt-5">Ver Cartelera de Actividades</a>
+      </div>
+    </section>
+
+    <!-- Actividades Destacadas -->
+    <section class="container py-5">
+      <h2 class="text-center mb-5">Actividades Destacadas</h2>
+      <div class="row g-4">
+        <!-- Destacado 1 -->
+        <div class="col-md-6">
+          <div class="card card-actividad h-100">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.4Cn3WVQqXk84us3GF67WjgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Taller de pintura">
+            <div class="card-body">
+              <h3 class="card-title h5">Taller familiar</h3>
+              <p class="card-text">Ven a expresar tu creatividad en nuestro taller abierto para todas las edades.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Destacado 2 -->
+        <div class="col-md-6">
+          <div class="card card-actividad h-100">
+            <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2018/06/21/613EF3F8-3104-4D53-89F3-3E242399967D/98.jpg?crop=995,560,x2,y0&width=1900&height=1069&optimize=high&format=webply" class="card-img-top" alt="Concierto acústico">
+            <div class="card-body">
+              <h3 class="card-title h5">Ciclo de Conciertos</h3>
+              <p class="card-text">Disfruta de la mejor música local</p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="bg-light py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Visítanos</h2>
+        <p><strong>Dirección:</strong> Av. alemania 262, Valparaiso.</p>
+        <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+        <p><strong>Correo:</strong> contacto@puertoabierto.cl</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="text-center py-4 mt-auto">
+    <p class="mb-0">&copy; 2026 Centro Cultural Puerto Abierto. Consultar por Jorge en la Chacalia</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
