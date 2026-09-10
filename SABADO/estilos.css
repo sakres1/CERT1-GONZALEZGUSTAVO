@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600&family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --color-principal: #2C3E50; /* Azul oscuro */
+  --color-acento: #E67E22; /* Naranja para botones y destacados */
+  --color-fondo: #F9F9F9; /* Gris claro para el fondo */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-fondo);
+  color: #333;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+  font-family: 'Lora', serif;
+  color: var(--color-principal);
+}
+
+/* Ajustes a la barra de navegacion */
+.navbar {
+  background-color: var(--color-principal);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: var(--color-acento) !important;
+}
+
+/* Botones personalizados */
+.btn-cultural {
+  background-color: var(--color-acento);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+.btn-cultural:hover {
+  background-color: #d35400;
+  color: #fff;
+}
+
+/* Tarjetas de actividades */
+.card-actividad {
+  transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card-actividad:hover {
+  transform: translateY(-5px);
+}
+
+/* Pie de pegina */
+footer {
+  background-color: var(--color-principal);
+  color: #ccc;
+}
